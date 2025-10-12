@@ -21,43 +21,39 @@ export default function Education2() {
                     <ul className="ps-3">
                       <li className="position-relative z-1 mb-3">
                         <div className="d-flex gap-2">
-                          <p className="text-300 text-nowrap fw-regular mb-0">2020-2024:</p>
+                          <p className="text-300 text-nowrap fw-regular mb-0">Oct 2024 - Oct 2028:</p>
                           <div>
-                            <span className="text-primary-2">MIT</span>
-                            <p className="text-dark">Bachelor’s Degree in Computer Science</p>
+                            <span className="text-primary-2">Virtual University</span>
+                            <p className="text-dark mb-0">Bachelor of Science - BS, Computer Science</p>
                           </div>
                         </div>
                       </li>
+
                       <li className="position-relative z-1 mb-3">
                         <div className="d-flex gap-2">
-                          <p className="text-300 text-nowrap fw-regular mb-0">2018-2019:</p>
+                          <p className="text-300 text-nowrap fw-regular mb-0">Oct 2022 - Jul 2024:</p>
                           <div>
-                            <span className="text-primary-2">Harvard University</span>
-                            <p className="text-dark">Certification in React and Redux, Node.js Developer Course</p>
+                            <span className="text-primary-2">Punjab Group Of Colleges</span>
+                            <p className="text-dark mb-0">
+                              Intermediate (ICS), Computer/Information Technology Administration and Management • Grade: A
+                            </p>
                           </div>
                         </div>
                       </li>
+
                       <li className="position-relative z-1 mb-3">
                         <div className="d-flex gap-2">
-                          <p className="text-300 text-nowrap fw-regular mb-0">2015-2016:</p>
+                          <p className="text-300 text-nowrap fw-regular mb-0">Mar 2019 - May 2022:</p>
                           <div>
-                            <span className="text-primary-2">Stanford University</span>
-                            <p className="text-dark">Certification in Full Stack Web Development</p>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="position-relative z-1 mb-3">
-                        <div className="d-flex gap-2">
-                          <p className="text-300 text-nowrap fw-regular mb-0">2013-2015:</p>
-                          <div>
-                            <span className="text-primary-2">University of Washington</span>
-                            <p className="text-dark">Certification in React and Redux, Node.js Developer Course</p>
+                            <span className="text-primary-2">Efa School System</span>
+                            <p className="text-dark mb-0">High School (Matric), Computer Science</p>
                           </div>
                         </div>
                       </li>
                     </ul>
                     <div className="line-left position-absolute top-0 border-start z-0" />
                   </div>
+
                   <div className="bg-overlay position-absolute bottom-0 start-0 z-1" />
                 </div>
               </div>
