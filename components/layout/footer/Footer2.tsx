@@ -10,16 +10,16 @@ export default function Footer2() {
                 <span className="fs-4 ms-2">Moiz.dev</span>
               </a>
               <div className="d-flex justify-content-center gap-3">
-                <a href="http://facebook.com">
+                {/* <a href="http://facebook.com">
                   <i className="ri-facebook-circle-fill fs-18" />
-                </a>
+                </a> */}
                 {/* <a href="http://twitter.com">
                   <i className="ri-twitter-x-fill fs-18" />
                 </a> */}
-                <a href="http://linkedin.com">
+                <a href="http://linkedin.com/in/mian-moiz-digital">
                   <i className="ri-linkedin-fill fs-18" />
                 </a>
-                <a href="http://github.com">
+                <a href="http://github.com/moizxox">
                   <i className="ri-github-fill fs-18" />
                 </a>
               </div>

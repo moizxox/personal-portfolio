@@ -291,7 +291,7 @@ export default function Coporation2() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 pt-lg-0 pt-5">
+            {/* <div className="col-lg-4 pt-lg-0 pt-5">
               <div className="bg-3 rounded-3 border border-1 p-md-6 p-3 position-relative h-100 overflow-hidden">
                 <div className="d-flex align-items-center">
                   <svg className="text-primary-2 me-2" xmlns="http://www.w3.org/2000/svg" width={5} height={6} viewBox="0 0 5 6" fill="none">
@@ -336,7 +336,7 @@ export default function Coporation2() {
                 </div>
                 <div className="bg-overlay position-absolute bottom-0 start-0 z-1" />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

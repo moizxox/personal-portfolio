@@ -14,16 +14,16 @@ export default function Skills2() {
                     <svg className="text-primary-2 me-2" xmlns="http://www.w3.org/2000/svg" width={5} height={6} viewBox="0 0 5 6" fill="none">
                       <circle cx="2.5" cy={3} r="2.5" fill="#A8FF53" />
                     </svg>
-                    <span className="text-linear-4 d-flex align-items-center"> Projects </span>
+                    <span className="text-linear-4 d-flex align-items-center">Projects</span>
                   </div>
                   <h3>My Skills</h3>
                 </div>
+
                 <div className="container mt-8">
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="row">
                         <div className="col-lg-10 col-md-9 mx-auto overflow-hidden">
-                          {/* Carausel Scroll */}
                           <Marquee className="carouselTicker carouselTicker-right position-relative z-1" direction="right">
                             <ul className="carouselTicker__list m-0">
                               <li className="carouselTicker__item mt-6">
@@ -59,8 +59,8 @@ export default function Skills2() {
                             </ul>
                           </Marquee>
                         </div>
+
                         <div className="col-lg-8 col-md-7 col-10 mx-auto overflow-hidden">
-                          {/* Carausel Scroll */}
                           <Marquee className="carouselTicker carouselTicker-left position-relative z-1">
                             <ul className="carouselTicker__list m-0 ">
                               <li className="carouselTicker__item mt-6">
@@ -68,12 +68,6 @@ export default function Skills2() {
                                   <img src="assets/imgs/home-page-2/hero-1/icon-7.svg" alt="brand" />
                                 </Link>
                                 <span className="tool-tip">VueJS</span>
-                              </li>
-                              <li className="carouselTicker__item mt-6">
-                                <Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
-                                  <img src="assets/imgs/home-page-2/hero-1/icon-8.svg" alt="brand" />
-                                </Link>
-                                <span className="tool-tip">Angular</span>
                               </li>
                               <li className="carouselTicker__item mt-6">
                                 <Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
@@ -92,6 +86,7 @@ export default function Skills2() {
                         </div>
                       </div>
                     </div>
+
                     <div className="col-lg-6 border-start-md mt-lg-0 mt-5">
                       <div className="row">
                         <div className="col-md-10 mx-auto">
@@ -100,25 +95,25 @@ export default function Skills2() {
                               <li className="mb-3">
                                 <div className="d-flex flex-column flex-md-row gap-2">
                                   <p className="text-dark text-nowrap mb-0">Front-End:</p>
-                                  <span className="text-300">HTML, CSS, JavaScript, React, Angular</span>
+                                  <span className="text-300">HTML, CSS, JavaScript, React</span>
                                 </div>
                               </li>
                               <li className="mb-3">
                                 <div className="d-flex flex-column flex-md-row gap-2">
                                   <p className="text-dark text-nowrap mb-0">Back-End:</p>
-                                  <span className="text-300">Node.js, Express, Python, Django</span>
+                                  <span className="text-300">Node.js, Express</span>
                                 </div>
                               </li>
                               <li className="mb-3">
                                 <div className="d-flex flex-column flex-md-row gap-2">
                                   <p className="text-dark text-nowrap mb-0">Databases:</p>
-                                  <span className="text-300">MySQL, PostgreSQL, MongoDB</span>
+                                  <span className="text-300">MySQL, MongoDB</span>
                                 </div>
                               </li>
                               <li className="mb-3">
                                 <div className="d-flex flex-column flex-md-row gap-2">
                                   <p className="text-dark text-nowrap mb-0">Tools &amp; Platforms:</p>
-                                  <span className="text-300">Git, Docker, AWS, Heroku</span>
+                                  <span className="text-300">Git, Docker, AWS</span>
                                 </div>
                               </li>
                               <li className="mb-3">
@@ -136,6 +131,7 @@ export default function Skills2() {
                 </div>
               </div>
             </div>
+
             <div className="position-absolute d-none d-md-block decorate">
               <div className="rotateme">
                 <div className="circle-1-1" />
