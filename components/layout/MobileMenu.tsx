@@ -10,7 +10,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
         <div className="mobile-header-wrapper-inner">
           <div className="mobile-header-logo">
             <Link className="d-flex main-logo align-items-center d-inline-flex" href="/">
-              <img src="/assets/imgs/footer-1/logo.svg" alt="infinia" />
+              <img src="assets/imgs/home-page-2/template/favicon.svg" alt="zelio" />
               <span className="fs-4 ms-2 text-dark">Moiz.dev</span>
             </Link>
             <div className={`burger-icon burger-icon-white border rounded-3 ${isMobileMenu ? "burger-close" : ""}`} onClick={handleMobileMenu}>
