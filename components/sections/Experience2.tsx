@@ -91,6 +91,7 @@ export default function Experience2() {
                         className={`technology border border-1 rounded-3 p-3 text-start w-100 ${
                           activeExp.id === exp.id ? "active border-primary" : ""
                         }`}
+                        style={{ cursor: "pointer", background: "transparent" }}
                       >
                         <div className="d-flex align-items-center gap-2">
                           <img
@@ -101,7 +102,7 @@ export default function Experience2() {
                           />
                           <div className="d-flex flex-column ms-2">
                             <h5 className="mb-1">{exp.company}</h5>
-                            <span className="text-300">{exp.duration}</span>
+                            {/* <span className="text-300">{exp.duration}</span> */}
                           </div>
                         </div>
                       </button>
