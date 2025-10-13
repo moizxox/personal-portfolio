@@ -38,9 +38,9 @@ export default function Home2() {
                     <p className="mb-6 text-secondary-2">
                       &lt;p&gt;<span className="text-dark">With expertise in modern technologies such as</span>{" "}
                       <span className="text-secondary-2">Node.js</span>, <span className="text-secondary-2">React.js</span>,{" "}
-                      <span className="text-secondary-2">Next.js</span>, and{" "}
+                      <span className="text-secondary-2">Next.js</span>,<span className="text-secondary-2">PHP</span>, and{" "}
                       <span className="text-secondary-2">
-                        <b>Full Stack</b>WordPress
+                        <b>Full Stack </b>WordPress
                       </span>{" "}
                       <span className="text-dark">... I deliver web solutions that are both innovative and robust.</span>&lt;/p&gt;
                     </p>
@@ -83,7 +83,7 @@ export default function Home2() {
                         <span className="fs-6 text-300 mb-2">...and more</span>
                       </div>
                     </div>
-                    <Link href="assets/resume.pdf" className="btn me-2 text-300 ps-0 mt-4" target="_blank">
+                    <Link href="assets/moiz-resume.pdf" className="btn me-2 text-300 ps-0 mt-4" target="_blank">
                       <i className="ri-download-line text-primary-2" />[ Download my CV ]
                     </Link>
                   </div>
