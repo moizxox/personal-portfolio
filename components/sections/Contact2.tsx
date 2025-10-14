@@ -14,11 +14,11 @@ export default function Contact2() {
   const [sent, setSent] = useState(false);
   const [error, setError] = useState(false);
 
-  const handleChange = (e) => {
+  const handleChange = (e: any) => {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
     setLoading(true);
     setSent(false);
